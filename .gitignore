@@ -76,3 +76,5 @@ DerivedDataCache/*
 
 # Starter Content
 Escape Game/EscapeGame/Content/StarterContent/
+
+*.log
