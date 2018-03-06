@@ -1,3 +1,0 @@
-C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Source\EscapeGame\EscapeGame.Build.cs
-C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Source\EscapeGame.Target.cs
-C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Source\EscapeGameEditor.Target.cs
