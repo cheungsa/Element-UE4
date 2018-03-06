@@ -1,0 +1,9 @@
+﻿  Compiling game modules for hot reload
+  Performing 3 actions (2 in parallel)
+  PositionReporter.cpp
+  [2/3] Link UE4Editor-EscapeGame-6616.dll
+  [3/3] Link UE4Editor-EscapeGame-6616.lib
+     Creating library C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6616.lib and object C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6616.exp
+     Creating library C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6616.suppressed.lib and object C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6616.suppressed.exp
+  Deploying EscapeGameEditor Win64 Development...
+  Total build time: 4.00 seconds (Local executor: 1.63 seconds)

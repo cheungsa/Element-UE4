@@ -1,0 +1,662 @@
+﻿Log file open, 03/06/18 02:25:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: EscapeGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1956629362) SRandInit(-1956629362).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.242914
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Binaries/Win64/UE4Editor-EscapeGame-6334.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.06-10.25.59:379][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.06-10.25.59:379][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.06-10.25.59:421][  0]LogInit: Computer: DESKTOP-55S8FDH
+[2018.03.06-10.25.59:421][  0]LogInit: User: sarah
+[2018.03.06-10.25.59:421][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.03.06-10.25.59:421][  0]LogInit: High frequency timer resolution =2.343748 MHz
+[2018.03.06-10.25.59:423][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.06-10.25.59:423][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.06-10.25.59:423][  0]LogMemory: Process Physical Memory: 272.47 MB used, 272.47 MB peak
+[2018.03.06-10.25.59:423][  0]LogMemory: Process Virtual Memory: 271.18 MB used, 271.18 MB peak
+[2018.03.06-10.25.59:423][  0]LogMemory: Physical Memory: 5331.60 MB used,  2708.96 MB free, 8040.55 MB total
+[2018.03.06-10.25.59:423][  0]LogMemory: Virtual Memory: 680.18 MB used,  2708.96 MB free, 134217728.00 MB total
+[2018.03.06-10.25.59:718][  0]LogInit: Using OS detected language (en-US).
+[2018.03.06-10.25.59:718][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.06-10.25.59:798][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.06-10.26.00:501][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.06-10.26.04:442][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.06-10.26.04:537][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2018.03.06-10.26.04:537][  0]LogD3D11RHI:       2020/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.06-10.26.04:553][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2018.03.06-10.26.04:553][  0]LogD3D11RHI:       128/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.06-10.26.04:558][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.06-10.26.04:558][  0]LogD3D11RHI:       0/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.06-10.26.04:558][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.06-10.26.04:575][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.06-10.26.04:575][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.06-10.26.04:576][  0]LogWindows: EnumDisplayDevices:
+[2018.03.06-10.26.04:576][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2018.03.06-10.26.04:576][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.03.06-10.26.04:576][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.03.06-10.26.04:576][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.06-10.26.04:576][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2018.03.06-10.26.04:576][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.06-10.26.04:576][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.06-10.26.04:576][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2018.03.06-10.26.04:617][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.06-10.26.04:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.06-10.26.04:641][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Intermediate/Shaders/WorkingDirectory/6712/).
+[2018.03.06-10.26.04:642][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sarah/AppData/Local/Temp/UnrealShaderWorkingDir/3004D99C4F98150401A14EA20422181E/'.
+[2018.03.06-10.26.04:642][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.06-10.26.07:846][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.06-10.26.08:095][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.06-10.26.08:231][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.06-10.26.08:402][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.06-10.26.08:578][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.06-10.26.08:743][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.06-10.26.08:899][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.06-10.26.09:033][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.06-10.26.09:140][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.06-10.26.09:313][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.06-10.26.09:454][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.06-10.26.09:561][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.06-10.26.09:676][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.06-10.26.09:775][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.06-10.26.10:011][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.06-10.26.10:011][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.06-10.26.10:099][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.06-10.26.10:170][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.06-10.26.10:323][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.06-10.26.10:366][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.06-10.26.10:457][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.06-10.26.10:561][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.06-10.26.10:661][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.06-10.26.10:754][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.06-10.26.10:754][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.06-10.26.11:834][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.06-10.26.12:275][  0]LogDerivedDataCache: Loaded boot cache 0.44s 78MB C:/Users/sarah/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.06-10.26.12:275][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sarah/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.06-10.26.12:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.06-10.26.12:275][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.06-10.26.12:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.06-10.26.12:275][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.06-10.26.12:304][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.06-10.26.12:318][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sarah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.06-10.26.12:334][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.06-10.26.12:335][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.06-10.26.12:358][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.06-10.26.12:358][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.06-10.26.13:752][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.06-10.26.14:628][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.06-10.26.14:706][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.06-10.26.14:706][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.06-10.26.14:706][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.06-10.26.14:706][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.06-10.26.14:706][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.06-10.26.14:755][  0]LogNetVersion: EscapeGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3803918053)
+[2018.03.06-10.26.15:048][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2018.03.06-10.26.16:216][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.227784 seconds
+[2018.03.06-10.26.16:241][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.06-10.26.16:241][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.06-10.26.16:241][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.06-10.26.16:418][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.06-10.26.24:537][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.06-10.26.24:606][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.06-10.26.26:017][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.06-10.26.26:823][  0]SourceControl: Source control is disabled
+[2018.03.06-10.26.29:708][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.06-10.26.30:196][  0]LogOcInput: OculusInput pre-init called
+[2018.03.06-10.26.30:671][  0]LogEngine: Initializing Engine...
+[2018.03.06-10.26.30:674][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.06-10.26.31:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.06-10.26.31:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.06-10.26.31:313][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.06-10.26.31:335][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-10.26.31:402][  0]LogInit: FAudioDevice initialized.
+[2018.03.06-10.26.31:507][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/sarah/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.06-10.26.31:542][  0]LogInit: Texture streaming: Enabled
+[2018.03.06-10.26.31:733][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.06-10.26.31:971][  0]LogInit: Transaction tracking system initialized
+[2018.03.06-10.26.32:571][  0]BlueprintLog: New page: Editor Load
+[2018.03.06-10.26.34:366][  0]LocalizationService: Localization service is disabled
+[2018.03.06-10.26.35:854][  0]LogConsoleResponse: Display: 
+[2018.03.06-10.26.36:404][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.06-10.26.36:404][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.06-10.26.36:404][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.06-10.26.37:034][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/' took 0.02s
+[2018.03.06-10.26.38:961][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.06-10.26.38:962][  0]LightingResults: New page: Lighting Build
+[2018.03.06-10.26.39:044][  0]MapCheck: New page: Map Check
+[2018.03.06-10.26.39:044][  0]LightingResults: New page: Lighting Build
+[2018.03.06-10.26.39:363][  0]LogAIModule: Creating AISystem for world NewMap
+[2018.03.06-10.26.39:372][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.06-10.26.39:395][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.06-10.26.39:471][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.61ms to complete.
+[2018.03.06-10.26.39:471][  0]LogFileHelpers: Loading map 'NewMap' took 0.509
+[2018.03.06-10.26.39:767][  0]LogCollectionManager: Loaded 0 collections in 0.002799 seconds
+[2018.03.06-10.26.39:944][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/Collections/' took 0.01s
+[2018.03.06-10.26.39:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/Developers/sarah/Collections/' took 0.01s
+[2018.03.06-10.26.39:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/Collections/' took 0.01s
+[2018.03.06-10.26.39:945][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.06-10.26.39:966][  0]LogContentBrowser: Native class hierarchy populated in 0.0211 seconds. Added 2365 classes and 521 folders.
+[2018.03.06-10.26.40:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.03.06-10.26.40:693][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.03.06-10.26.40:774][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.03.06-10.26.40:969][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.03.06-10.26.40:970][  0]LogLoad: (Engine Initialization) Total time: 48.55 seconds
+[2018.03.06-10.26.40:970][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.06-10.26.40:970][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.06-10.26.41:009][  0]SourceControl: On branch master
+[2018.03.06-10.26.41:009][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.06-10.26.41:010][  0]SourceControl: Changes not staged for commit:
+[2018.03.06-10.26.41:010][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.06-10.26.41:010][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.06-10.26.41:010][  0]SourceControl: 	modified:   Escape Game/EscapeGame/Intermediate/CachedAssetRegistry.bin
+[2018.03.06-10.26.41:010][  0]SourceControl: 	modified:   Escape Game/EscapeGame/Saved/AutoScreenshot.png
+[2018.03.06-10.26.41:010][  0]SourceControl: 	modified:   Escape Game/EscapeGame/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.06-10.26.41:010][  0]SourceControl: 	modified:   Escape Game/EscapeGame/Saved/Logs/EscapeGame.log
+[2018.03.06-10.26.41:010][  0]SourceControl: Untracked files:
+[2018.03.06-10.26.41:010][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.06-10.26.41:010][  0]SourceControl: 	Escape Game/EscapeGame/Saved/Config/CrashReportClient/UE4CC-Windows-35D334F744D621B555AC5A8794C3D5C1/
+[2018.03.06-10.26.41:010][  0]SourceControl: 	Escape Game/EscapeGame/Saved/Config/CrashReportClient/UE4CC-Windows-6AF2505A4FFD1185B6AB8E83E32E0A32/
+[2018.03.06-10.26.41:010][  0]SourceControl: 	Escape Game/EscapeGame/Saved/Logs/EscapeGame-backup-2018.03.05-23.28.41.log
+[2018.03.06-10.26.41:010][  0]SourceControl: 	Escape Game/EscapeGame/Saved/Logs/EscapeGame_2.log
+[2018.03.06-10.26.41:010][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.06-10.26.41:010][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.06-10.26.41:021][  0]LogSlate: Took 0.008623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.06-10.26.41:030][  0]LogSlate: Took 0.006842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.06-10.26.41:045][  0]LogSlate: Took 0.007506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.06-10.26.41:201][  0]LogSlate: Took 0.006775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.06-10.26.41:253][  1]LogAssetRegistry: Asset discovery search completed in 26.2270 seconds
+[2018.03.06-10.26.41:255][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.06-10.26.41:255][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2018.03.06-10.26.41:349][  2]LogRenderer: Reallocating scene render targets to support 808x360 Format 10 NumSamples 1 (Frame:1).
+[2018.03.06-10.26.56:189][203]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.06-10.29.56:596][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.06-10.30.00:778][312]LogSlate: Took 0.005999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.06-10.30.34:284][227]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.06-10.31.00:283][598]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.31.01:632][600]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.31.29:716][671]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.32.19:573][820]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.18:028][995]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.22:182][  7]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.28:211][ 25]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.28:502][ 26]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.30:834][ 33]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.47:550][ 83]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.52:842][ 99]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.53:202][100]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.58:854][117]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.33.59:196][118]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.35.18:243][355]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-10.35.34:581][404]LogWindows: LaunchFileInExternalEditor C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.h 
+[2018.03.06-10.35.34:806][404]LogWindows: Launch application code for C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.h : 42
+[2018.03.06-10.35.34:806][404]LogWindows: LaunchFileInExternalEditor C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.cpp 
+[2018.03.06-10.35.35:010][404]LogWindows: Launch application code for C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.cpp : 42
+[2018.03.06-10.35.35:010][404]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.06-10.35.35:020][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:021][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:021][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:021][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:021][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:022][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:022][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:022][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:022][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:023][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:023][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:023][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:023][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:023][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:024][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:024][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:024][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:024][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:024][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:024][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:025][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:025][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:025][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:025][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:026][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:026][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:026][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:026][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:027][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:027][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:027][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:027][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:027][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:028][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:028][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:028][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:029][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:029][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:029][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:029][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:030][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:030][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:030][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:031][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:031][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:031][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:031][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:032][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:032][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:032][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:033][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:033][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:034][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:034][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:035][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:035][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:036][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:036][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:036][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:037][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:038][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:038][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:039][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:041][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:041][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:044][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:044][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:045][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:045][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:045][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:046][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:046][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:047][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:047][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:047][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:047][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:047][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:047][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:048][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:048][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:049][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:049][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:049][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:050][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:051][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:051][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:051][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:051][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:052][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:052][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:052][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:053][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:053][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:055][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:055][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:055][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:056][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:056][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:056][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:057][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:057][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:057][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:058][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:059][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:063][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:066][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:067][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:067][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:067][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:068][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:068][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:069][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:069][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:070][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:071][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:071][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:072][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:072][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:073][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:073][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:073][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:073][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:074][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:074][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:074][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:075][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:076][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:078][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:078][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:079][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:079][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:080][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:081][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:091][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:102][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:105][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:117][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:117][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:123][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:224][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:224][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:224][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:224][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:319][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:320][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:325][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.35.35:345][404]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-10.37.33:714][852]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.06-10.37.35:871][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.06-10.37.35:879][852]PIE: New page: PIE session: NewMap (Mar 5, 2018, 6:37:35 PM)
+[2018.03.06-10.37.35:879][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.06-10.37.35:888][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008926s)
+[2018.03.06-10.37.35:890][852]LogAIModule: Creating AISystem for world NewMap
+[2018.03.06-10.37.35:891][852]LogPlayLevel: PIE: World Init took: (0.002827s)
+[2018.03.06-10.37.35:892][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.012850s)
+[2018.03.06-10.37.35:920][852]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-10.37.35:939][852]LogInit: FAudioDevice initialized.
+[2018.03.06-10.37.35:994][852]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeGame.EscapeGameGameMode'
+[2018.03.06-10.37.35:994][852]LogLoad: Game class is 'GameModeBase'
+[2018.03.06-10.37.36:008][852]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2018.03.06-02.37.36
+[2018.03.06-10.37.36:010][852]LogWorld: Bringing up level for play took: 0.003091
+[2018.03.06-10.37.36:125][852]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.03.06-10.37.36:135][852]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.588
+[2018.03.06-10.38.48:085][738]LogHotReload: New module detected: UE4Editor-EscapeGame-3690.dll
+[2018.03.06-10.38.49:447][743]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.06-10.38.49:629][743]LogContentBrowser: Native class hierarchy updated for 'EscapeGame' in 0.0012 seconds. Added 2 classes and 2 folders.
+[2018.03.06-10.38.49:632][743]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.06-10.38.49:777][743]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2367 classes and 525 folders.
+[2018.03.06-10.38.49:789][743]Display: HotReload took  0.3s.
+[2018.03.06-10.39.16:798][824]LogHotReload: New module detected: UE4Editor-EscapeGame-6616.dll
+[2018.03.06-10.39.17:834][828]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.06-10.39.18:015][828]LogContentBrowser: Native class hierarchy updated for 'EscapeGame' in 0.0013 seconds. Added 2 classes and 2 folders.
+[2018.03.06-10.39.18:018][828]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.06-10.39.18:137][828]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2367 classes and 525 folders.
+[2018.03.06-10.39.18:143][828]Display: HotReload took  0.3s.
+[2018.03.06-10.39.25:572][920]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.06-10.39.25:599][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.06-10.39.25:599][920]PIE: New page: PIE session: NewMap (Mar 5, 2018, 6:39:25 PM)
+[2018.03.06-10.39.25:600][920]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.06-10.39.25:607][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006953s)
+[2018.03.06-10.39.25:608][920]LogAIModule: Creating AISystem for world NewMap
+[2018.03.06-10.39.25:608][920]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2018.03.06-10.39.25:609][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009162s)
+[2018.03.06-10.39.25:633][920]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-10.39.25:652][920]LogInit: FAudioDevice initialized.
+[2018.03.06-10.39.25:690][920]LogLoad: Game class is 'GameModeBase'
+[2018.03.06-10.39.25:691][920]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2018.03.06-02.39.25
+[2018.03.06-10.39.25:692][920]LogWorld: Bringing up level for play took: 0.001045
+[2018.03.06-10.39.25:694][920]LogTemp: Warning: Position report reporting for duty!
+[2018.03.06-10.39.25:694][920]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.971
+[2018.03.06-10.40.10:625][267]LogSlate: Took 0.009220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.06-10.40.16:548][617]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.06-10.40.16:579][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.06-10.40.16:580][617]PIE: New page: PIE session: NewMap (Mar 5, 2018, 6:40:16 PM)
+[2018.03.06-10.40.16:580][617]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.06-10.40.16:587][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006559s)
+[2018.03.06-10.40.16:588][617]LogAIModule: Creating AISystem for world NewMap
+[2018.03.06-10.40.16:589][617]LogPlayLevel: PIE: World Init took: (0.001619s)
+[2018.03.06-10.40.16:589][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009475s)
+[2018.03.06-10.40.16:613][617]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-10.40.16:632][617]LogInit: FAudioDevice initialized.
+[2018.03.06-10.40.16:671][617]LogLoad: Game class is 'GameModeBase'
+[2018.03.06-10.40.16:672][617]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2018.03.06-02.40.16
+[2018.03.06-10.40.16:673][617]LogWorld: Bringing up level for play took: 0.001431
+[2018.03.06-10.40.16:675][617]LogTemp: Warning: Position report reporting for duty!
+[2018.03.06-10.40.16:675][617]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.047
+[2018.03.06-10.41.35:706][344]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.06-10.41.35:713][344]Candidate modules for hot reload:
+[2018.03.06-10.41.35:713][344]  EscapeGame
+[2018.03.06-10.41.35:713][344]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeGame -ModuleWithSuffix EscapeGame 6065 Win64 Development -editorrecompile -canskiplink "C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/EscapeGame.uproject" ]
+[2018.03.06-10.41.35:717][344]Warning: Starting HotReload took  0.0s.
+[2018.03.06-10.41.52:919][367]CompilerResultsLog: New page: Compilation - Mar 5, 2018, 6:41:52 PM
+[2018.03.06-10.41.52:919][367]CompilerResultsLog: Creating makefile for hot reloading EscapeGame (modules to compile have changed)
+[2018.03.06-10.41.52:920][367]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.06-10.41.52:920][367]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2018.03.06-10.41.52:920][367]CompilerResultsLog: PositionReporter.cpp
+[2018.03.06-10.41.52:920][367]CompilerResultsLog: [2/3] Link UE4Editor-EscapeGame-6065.dll
+[2018.03.06-10.41.52:920][367]CompilerResultsLog: [3/3] Link UE4Editor-EscapeGame-6065.lib
+[2018.03.06-10.41.52:920][367]CompilerResultsLog:    Creating library C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6065.lib and object C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6065.exp
+[2018.03.06-10.41.52:921][367]CompilerResultsLog:    Creating library C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6065.suppressed.lib and object C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6065.suppressed.exp
+[2018.03.06-10.41.52:921][367]CompilerResultsLog: Total build time: 16.61 seconds (Local executor: 2.95 seconds)
+[2018.03.06-10.41.52:921][367]LogMainFrame: MainFrame: Module compiling took 17.215 seconds
+[2018.03.06-10.41.53:044][367]LogContentBrowser: Native class hierarchy updated for 'EscapeGame' in 0.0013 seconds. Added 2 classes and 2 folders.
+[2018.03.06-10.41.53:046][367]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.06-10.41.53:127][367]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2367 classes and 525 folders.
+[2018.03.06-10.41.53:128][367]Display: HotReload took 17.4s.
+[2018.03.06-10.42.09:276][328]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.06-10.42.09:304][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.06-10.42.09:304][328]PIE: New page: PIE session: NewMap (Mar 5, 2018, 6:42:09 PM)
+[2018.03.06-10.42.09:304][328]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.06-10.42.09:311][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006588s)
+[2018.03.06-10.42.09:313][328]LogAIModule: Creating AISystem for world NewMap
+[2018.03.06-10.42.09:314][328]LogPlayLevel: PIE: World Init took: (0.001914s)
+[2018.03.06-10.42.09:314][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009829s)
+[2018.03.06-10.42.09:338][328]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-10.42.09:357][328]LogInit: FAudioDevice initialized.
+[2018.03.06-10.42.09:395][328]LogLoad: Game class is 'GameModeBase'
+[2018.03.06-10.42.09:397][328]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2018.03.06-02.42.09
+[2018.03.06-10.42.09:398][328]LogWorld: Bringing up level for play took: 0.001605
+[2018.03.06-10.42.09:400][328]LogTemp: Warning: Position report reporting for duty on Chair!
+[2018.03.06-10.42.09:400][328]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.677
+[2018.03.06-10.43.01:656][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-10.43.01:765][113]LogSavePackage: Save=66.19ms
+[2018.03.06-10.43.01:765][113]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMapA105B8034D72208467735495B0773BD5.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-10.43.01:774][113]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-10.43.02:045][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-10.43.02:106][113]LogSavePackage: Save=44.67ms
+[2018.03.06-10.43.02:107][113]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltData4527B196488A4334482418A879559430.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-10.43.02:114][113]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-10.43.53:358][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.06-10.44.12:761][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.06-10.45.27:277][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-10.45.27:356][188]LogSavePackage: Save=51.95ms
+[2018.03.06-10.45.27:356][188]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMapC3EF20A3417009A99CFAA5907B19735F.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-10.45.27:389][188]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-10.45.27:620][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-10.45.27:654][188]LogSavePackage: Save=26.23ms
+[2018.03.06-10.45.27:654][188]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltData9700A1C44D16039CEB2BFCA6F94D8DF5.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-10.45.27:661][188]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-10.45.35:814][635]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.06-10.45.35:847][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.06-10.45.35:847][635]PIE: New page: PIE session: NewMap (Mar 5, 2018, 6:45:35 PM)
+[2018.03.06-10.45.35:848][635]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.06-10.45.35:856][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008202s)
+[2018.03.06-10.45.35:860][635]LogAIModule: Creating AISystem for world NewMap
+[2018.03.06-10.45.35:861][635]LogPlayLevel: PIE: World Init took: (0.004274s)
+[2018.03.06-10.45.35:862][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.014042s)
+[2018.03.06-10.45.35:894][635]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-10.45.35:916][635]LogInit: FAudioDevice initialized.
+[2018.03.06-10.45.35:957][635]LogLoad: Game class is 'GameModeBase'
+[2018.03.06-10.45.35:958][635]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2018.03.06-02.45.35
+[2018.03.06-10.45.35:959][635]LogWorld: Bringing up level for play took: 0.001521
+[2018.03.06-10.45.35:962][635]LogTemp: Warning: Position report reporting for duty on Chair!
+[2018.03.06-10.45.35:962][635]LogTemp: Warning: Position report reporting for duty on Chair!
+[2018.03.06-10.45.35:963][635]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.76
+[2018.03.06-10.46.11:893][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
