@@ -421,3 +421,331 @@ LogInit: Object subsystem initialized
 [2018.03.06-02.23.26:625][782]LogSavePackage: Save=28.45ms
 [2018.03.06-02.23.26:625][782]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltData3DDFD00748795EFC3B9BC7A543CDB2F0.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
 [2018.03.06-02.23.26:636][782]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-02.24.32:547][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.06-02.24.44:851][148]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2018.03.06-02.26.27:287][285]LogActorFactory: Actor Factory created SM_Chair
+[2018.03.06-02.26.28:862][356]LogActorFactory: Actor Factory created SM_Chair
+[2018.03.06-02.26.41:275][935]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.26.52:137][450]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.26.52:686][476]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.27.03:940][988]Cmd: TRANSACTION UNDO
+[2018.03.06-02.27.03:940][988]LogEditorTransaction: Undo Rotate Actors
+[2018.03.06-02.27.08:549][190]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.27.16:776][563]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.27.18:671][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.06-02.27.19:848][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.06-02.27.20:770][739]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.27.30:374][194]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.06-02.28.00:405][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-02.28.00:484][597]LogSavePackage: Save=44.06ms
+[2018.03.06-02.28.00:485][597]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMapEA1AF1304837AD6BFBE7F085F28643DB.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-02.28.00:503][597]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-02.28.00:832][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-02.28.00:898][597]LogSavePackage: Save=55.53ms
+[2018.03.06-02.28.00:898][597]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltData729F59D04F63A25154DA63A753CA39F1.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-02.28.00:906][597]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-02.28.03:455][693]MapCheck: New page: Map Check
+[2018.03.06-02.28.03:489][693]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.06-02.28.03:490][693]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.06-02.28.03:572][693]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.06-02.28.03:587][693]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.03.06-02.28.03:594][693]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.03.06-02.28.03:606][693]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.03.06-02.28.05:081][693]TextureStreamingBuild: Display: Compiling optional shaders took 1.522 seconds.
+[2018.03.06-02.28.05:113][693]LogLevel: Display: Export Material TexCoord Scales took 0.032 seconds.
+[2018.03.06-02.28.05:119][693]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.03.06-02.28.05:134][693]LightingResults: New page: Lighting Build - Mar 5, 2018, 10:28:05 AM
+[2018.03.06-02.28.05:204][693]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.06-02.28.05:347][693]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.06-02.28.05:369][693]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.06-02.28.06:416][693]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.06-02.28.06:416][693]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15544
+[2018.03.06-02.28.09:221][693]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.06-02.28.09:222][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.06-02.28.09:222][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.06-02.28.09:222][693]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.06-02.28.09:222][693]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.06-02.28.09:222][693]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.06-02.28.09:489][693]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.06-02.28.09:489][693]MapCheck: New page: NewMap - Mar 5, 2018, 10:28:09 AM
+[2018.03.06-02.28.09:492][693]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.03.06-02.28.09:583][693]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 94.242ms to complete.
+[2018.03.06-02.28.09:606][693]LogEditorBuildUtils: Build time 0:06
+[2018.03.06-02.28.09:838][694]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2018.03.06-02.28.09:867][694]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2018.03.06-02.28.16:732][825]Job is a success!
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2018.03.06-02.28.16:892][826]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2018.03.06-02.28.17:051][826]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.03.06-02.28.17:051][826]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.03.06-02.28.17:051][826]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.06-02.28.17:052][826]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.06-02.28.17:052][826]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128)
+[2018.03.06-02.28.17:052][826]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.06-02.28.17:188][826]Lightmass on DESKTOP-55S8FDH: 4.28 sec total, 1.33 sec importing, 188 ms setup, 586 ms photons, 1.77 sec processing, 0 ms extra exporting [3/3 mappings]. Threads: 6.90 sec total, 3.10 sec processing.
+[2018.03.06-02.28.17:203][826]LogStaticLightingSystem: Illumination: 12.0 sec (64 ms encoding lightmaps, 59 ms encoding shadowmaps)
+[2018.03.06-02.28.17:203][826]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.06-02.28.17:203][826]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.06-02.28.17:236][826]DumpUnbuiltLightIteractions
+[2018.03.06-02.28.17:236][826]Lights with unbuilt interactions: 0
+[2018.03.06-02.28.17:236][826]
+[2018.03.06-02.28.17:236][826]Primitives with unbuilt interactions: 0
+[2018.03.06-02.28.17:260][827]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.06-02.28.17:261][827]MapCheck: New page: NewMap - Mar 5, 2018, 10:28:17 AM
+[2018.03.06-02.28.17:362][827]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.445ms to complete.
+[2018.03.06-02.29.09:293][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-02.29.09:522][665]LogSavePackage: Save=186.82ms
+[2018.03.06-02.29.09:523][665]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMapBD21C04C46197922A6AB4E89C37D3293.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-02.29.09:540][665]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-02.29.09:809][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-02.29.09:881][665]LogSavePackage: Save=47.11ms
+[2018.03.06-02.29.09:881][665]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltDataBB2145364B12B3B8DF32B980C5991AB5.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-02.29.09:898][665]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-02.33.11:893][131]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.06-02.33.53:222][136]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.06-02.34.15:716][203]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.06-02.34.18:315][330]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.03.06-02.34.20:211][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.06-02.34.21:949][500]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.06-02.35.51:864][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.06-02.36.32:486][ 69]LogSlate: Took 0.000997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.06-02.37.06:177][ 69]Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/EscapeGame.uproject" -game -rocket -progress
+[2018.03.06-02.37.06:485][ 69]Discovering modules, targets and source code for project...
+[2018.03.06-02.37.11:505][ 69]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.06-02.37.14:619][ 69]SourceControl: Error: warning: CRLF will be replaced by LF in Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.cpp.
+[2018.03.06-02.37.14:619][ 69]SourceControl: Error: The file will have its original line endings in your working directory.
+[2018.03.06-02.37.14:619][ 69]SourceControl: Error: warning: CRLF will be replaced by LF in Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.h.
+[2018.03.06-02.37.14:619][ 69]SourceControl: Error: The file will have its original line endings in your working directory.
+[2018.03.06-02.37.14:635][ 69]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.06-02.37.14:656][ 69]Candidate modules for hot reload:
+[2018.03.06-02.37.14:656][ 69]  EscapeGame
+[2018.03.06-02.37.14:657][ 69]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeGame -ModuleWithSuffix EscapeGame 6334 Win64 Development -editorrecompile -canskiplink "C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/EscapeGame.uproject" ]
+[2018.03.06-02.38.36:792][ 69]CompilerResultsLog: New page: Compilation - Mar 5, 2018, 10:38:36 AM
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: Creating makefile for hot reloading EscapeGame (no existing makefile)
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: Parsing headers for EscapeGameEditor
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\EscapeGame.uproject" "C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\EscapeGameEditor\Development\EscapeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: Reflection code generated for EscapeGameEditor in 18.5985344 seconds
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: Performing 5 actions (2 in parallel)
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: EscapeGame.init.gen.cpp
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: PositionReporter.cpp
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: PositionReporter.gen.cpp
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: [4/5] Link UE4Editor-EscapeGame-6334.dll
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog: [5/5] Link UE4Editor-EscapeGame-6334.lib
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog:    Creating library C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6334.lib and object C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6334.exp
+[2018.03.06-02.38.36:793][ 69]CompilerResultsLog:    Creating library C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6334.suppressed.lib and object C:\Users\sarah\source\repos\Unreal-Engine\Escape Game\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeGame-6334.suppressed.exp
+[2018.03.06-02.38.36:794][ 69]CompilerResultsLog: Total build time: 81.77 seconds (Local executor: 9.67 seconds)
+[2018.03.06-02.38.36:794][ 69]LogMainFrame: MainFrame: Module compiling took 82.159 seconds
+[2018.03.06-02.38.36:959][ 69]LogClass: Could not find existing class PositionReporter in package /Script/EscapeGame for HotReload, assuming new class
+[2018.03.06-02.38.36:963][ 69]LogContentBrowser: Native class hierarchy updated for 'EscapeGame' in 0.0016 seconds. Added 2 classes and 2 folders.
+[2018.03.06-02.38.36:967][ 69]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.06-02.38.37:106][ 69]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 2367 classes and 525 folders.
+[2018.03.06-02.38.37:112][ 69]Display: HotReload took 82.5s.
+[2018.03.06-02.38.37:114][ 69]Warning: HotReload operation took 82.5s.
+[2018.03.06-02.38.37:238][ 69]LogHotReload: New module detected: UE4Editor-EscapeGame-6334.dll
+[2018.03.06-02.38.37:419][ 70]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.06-02.38.37:729][ 70]LogContentBrowser: Native class hierarchy updated for 'EscapeGame' in 0.0015 seconds. Added 2 classes and 2 folders.
+[2018.03.06-02.38.37:733][ 70]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.06-02.38.37:782][ 70]LogContentBrowser: Native class hierarchy populated in 0.0232 seconds. Added 2367 classes and 525 folders.
+[2018.03.06-02.38.37:808][ 70]Display: HotReload took  0.4s.
+[2018.03.06-02.41.18:266][847]LogSavePackage: Save=211.08ms
+[2018.03.06-02.41.18:267][847]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_Auto1139C856B474978C29EC228BACD7FE0DC.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2018.03.06-02.41.18:273][847]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2018.03.06-02.41.18:281][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.286
+[2018.03.06-02.41.18:281][847]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.286
+[2018.03.06-02.42.00:172][968]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.06-02.43.37:326][259]LogWindows: LaunchFileInExternalEditor C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.h 
+[2018.03.06-02.43.37:613][259]LogWindows: Launch application code for C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.h : 42
+[2018.03.06-02.43.37:614][259]LogWindows: LaunchFileInExternalEditor C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.cpp 
+[2018.03.06-02.43.37:753][259]LogWindows: Launch application code for C:/Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Source/EscapeGame/PositionReporter.cpp : 42
+[2018.03.06-02.43.37:753][259]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.06-02.43.37:764][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:765][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:766][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:766][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:766][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:767][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:767][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:767][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:767][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:768][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:769][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:770][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:770][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:770][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:770][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:771][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:771][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:772][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:773][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:773][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:773][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:774][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:774][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:774][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:775][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:775][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:775][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:775][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:776][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:784][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:785][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:786][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:786][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:786][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:786][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:787][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:787][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:788][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:788][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:789][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:790][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:790][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:790][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:791][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:791][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:791][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:791][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:792][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:792][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:792][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:792][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:793][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:793][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:793][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:794][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:794][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:794][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:795][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:795][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:795][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:795][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:796][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:796][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:797][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:797][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:797][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:799][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:800][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:801][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:801][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:807][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:819][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:862][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:863][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:864][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:864][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:864][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:864][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:865][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:865][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:865][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:866][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:866][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:866][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:866][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:867][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:867][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:867][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:868][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:868][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:868][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:869][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:869][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:870][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:870][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:871][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:871][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:871][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:872][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:872][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:872][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:873][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:873][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:873][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:874][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:874][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:874][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:874][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:875][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:875][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:875][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:876][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:876][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:876][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:877][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:877][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:877][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:897][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:898][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:900][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:900][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:900][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:901][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:901][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:901][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:901][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:906][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:907][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:907][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:908][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:910][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:910][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:925][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:934][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:939][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:944][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:944][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.37:954][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:009][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:054][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:055][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:060][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:121][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:123][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:134][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.43.38:148][259]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.06-02.44.35:420][987]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.06-02.44.35:762][994]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeGame
+[2018.03.06-02.44.35:762][994]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.06-02.44.35:762][994]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.03.06-02.44.35:762][994]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.06-02.44.35:762][994]LogTemp: BranchPath = DESKTOP-55S8FDH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-55S8FDH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.03.06-02.44.35:873][997]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\sarah\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.06-02.44.52:659][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-02.44.52:887][778]LogSavePackage: Save=195.19ms
+[2018.03.06-02.44.52:887][778]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMapD3EA62664A5C791B8FF477B87D705B2A.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-02.44.52:900][778]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-02.44.53:184][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-02.44.53:244][778]LogSavePackage: Save=33.85ms
+[2018.03.06-02.44.53:244][778]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltData8AEC23AC4914BF8CA625B0B41E1F8397.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-02.44.53:256][778]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-02.44.58:449][968]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.06-02.44.59:115][990]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeGame
+[2018.03.06-02.44.59:115][990]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.06-02.44.59:115][990]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.03.06-02.44.59:115][990]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.06-02.44.59:129][991]LogTemp: BranchPath = DESKTOP-55S8FDH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-55S8FDH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.03.06-02.44.59:245][996]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\sarah\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.06-02.46.10:777][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-02.46.11:050][240]LogSavePackage: Save=237.66ms
+[2018.03.06-02.46.11:050][240]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap99613ED34520D49E6A1F36B0B2EDC4DA.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-02.46.11:056][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-02.46.11:377][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-02.46.11:424][240]LogSavePackage: Save=37.12ms
+[2018.03.06-02.46.11:425][240]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltData2AE20A7A4DA06801B53465B738A73433.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-02.46.11:430][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset
+[2018.03.06-02.48.58:746][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-02.48.58:968][959]LogSavePackage: Save=177.62ms
+[2018.03.06-02.48.58:968][959]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap9990BF1B4AA17C5F4F9576A2DF522088.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap'
+[2018.03.06-02.48.58:983][959]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap.umap
+[2018.03.06-02.48.59:310][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.06-02.48.59:354][959]LogSavePackage: Save=31.13ms
+[2018.03.06-02.48.59:354][959]LogSavePackage: Moving '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Saved/NewMap_BuiltDataCB1D3711472B03FEDDD7B9BB57689B75.tmp' to '../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2018.03.06-02.48.59:366][959]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sarah/source/repos/Unreal-Engine/Escape Game/EscapeGame/Content/NewMap_BuiltData.uasset

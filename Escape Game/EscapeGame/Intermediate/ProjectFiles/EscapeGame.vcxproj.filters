@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\EscapeGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{2DDD38F3-EC4B-43F4-8E4F-8292B36FD728}</UniqueIdentifier>
+			<UniqueIdentifier>{82AF6B5A-AA7D-4030-8A89-3415F611D446}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EscapeGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E2A361F5-EAD2-47EC-9586-5B63683FE198}</UniqueIdentifier>
+			<UniqueIdentifier>{E81E6057-E575-4A1F-950F-B38D3B453636}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\EscapeGame">
-			<UniqueIdentifier>{E583511D-C82F-4788-AF37-85FD702A7F23}</UniqueIdentifier>
+			<UniqueIdentifier>{46FE42E4-E165-44A9-8333-2AE6CFBADB1A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EscapeGame\EscapeGame.Build.cs">
 			<Filter>Source\EscapeGame</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\EscapeGame</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\EscapeGame\EscapeGameGameModeBase.h">
+			<Filter>Source\EscapeGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EscapeGame\PositionReporter.cpp">
+			<Filter>Source\EscapeGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeGame\PositionReporter.h">
 			<Filter>Source\EscapeGame</Filter>
 		</ClInclude >
 	</ItemGroup>
