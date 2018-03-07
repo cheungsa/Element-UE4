@@ -22,9 +22,12 @@ void UPositionReporter::BeginPlay()
 	// stores name of object that the pointer is pointing to
 	FString ObjectName = GetOwner()->GetName();
 
+	// stores location of object
+	FString ObjectPos = GetOwner()->GetTransform().GetLocation().ToString();
+	
 	// macro - log it's going to - warning - text that holds a string
 	// prints name of object with %s
-	UE_LOG(LogTemp, Warning, TEXT("Position report reporting for %s"), *ObjectName);
+	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectPos);
 	
 }
 
