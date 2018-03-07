@@ -15,7 +15,7 @@ UOpenDoor::UOpenDoor()
 	AActor* Owner = GetOwner(); // 'auto' gets your type object, which is AActor* in this case
 
 	// Create a rotator
-	FRotator NewRotation = FRotator(0.0f, 60.0f, 0.0f); // 'f' for float
+	FRotator NewRotation = FRotator(0.0f, -60.0f, 0.0f); // 'f' for float
 
 	// Set the door rotation
 	Owner->SetActorRotation(NewRotation);
