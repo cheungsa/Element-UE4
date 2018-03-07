@@ -2,6 +2,8 @@
 
 #include "EscapeGameGameModeBase.h"
 
+#include "EscapeGame.h"
+
 
 
 

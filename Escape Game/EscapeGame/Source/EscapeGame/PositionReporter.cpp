@@ -2,6 +2,8 @@
 
 #include "PositionReporter.h"
 
+#include "EscapeGame.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
 UPositionReporter::UPositionReporter()
@@ -17,8 +19,12 @@ void UPositionReporter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// stores name of object that the pointer is pointing to
+	FString ObjectName = GetOwner()->GetName();
+
 	// macro - log it's going to - warning - text that holds a string
-	UE_LOG(LogTemp, Warning, TEXT("Position report reporting for duty on Chair!"));
+	// prints name of object with %s
+	UE_LOG(LogTemp, Warning, TEXT("Position report reporting for %s"), *ObjectName);
 	
 }
 

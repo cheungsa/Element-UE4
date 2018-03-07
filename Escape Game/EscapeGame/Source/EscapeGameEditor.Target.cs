@@ -9,6 +9,9 @@ public class EscapeGameEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
+        bUseUnityBuild = false;
+        bUsePCHFiles = false;
+
 		ExtraModuleNames.AddRange( new string[] { "EscapeGame" } );
 	}
 }
