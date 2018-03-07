@@ -10,6 +10,13 @@ UOpenDoor::UOpenDoor()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
+}
+
+
+// Called when the game starts
+void UOpenDoor::BeginPlay()
+{
+	Super::BeginPlay();
 
 	// Find the owning Actor 
 	AActor* Owner = GetOwner(); // 'auto' gets your type object, which is AActor* in this case
@@ -19,15 +26,6 @@ UOpenDoor::UOpenDoor()
 
 	// Set the door rotation
 	Owner->SetActorRotation(NewRotation);
-}
-
-
-// Called when the game starts
-void UOpenDoor::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
 	
 }
 
