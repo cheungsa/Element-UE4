@@ -38,6 +38,7 @@ private:
 	// invisible volume in the game worlld that can be used to tell code to do something
 	ATriggerVolume* PressurePlate;
 
-	UPROPERTY(EditAnywhere)
+	//UPROPERTY(EditAnywhere)
+
 	AActor* ActorThatOpens; // remember pawn inherits from actor (can also use APawn*)
 };
