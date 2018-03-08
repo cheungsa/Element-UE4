@@ -19,6 +19,7 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// Find default pawn in World
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
@@ -27,10 +28,10 @@ void UOpenDoor::OpenDoor()
 	// Find the owning Actor 
 	AActor* Owner = GetOwner(); // 'auto' gets your type object, which is AActor* in this case
 
-								// Create a rotator
+	// Create a rotator
 	FRotator NewRotation = FRotator(0.0f, -170.0f, 0.0f); // 'f' for float
 
-														  // Set the door rotation
+	// Set the door rotation
 	Owner->SetActorRotation(NewRotation);
 }
 
