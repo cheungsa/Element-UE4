@@ -13,28 +13,27 @@ UOpenDoor::UOpenDoor()
 	PrimaryComponentTick.bCanEverTick = true;
 }
 
-
 // Called when the game starts
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
+	Owner = GetOwner();
 	// Find default pawn in World
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 void UOpenDoor::OpenDoor()
 {
-	// Find the owning Actor 
-	AActor* Owner = GetOwner(); // 'auto' gets your type object, which is AActor* in this case
-
-	// Create a rotator
-	FRotator NewRotation = FRotator(0.0f, -170.0f, 0.0f); // 'f' for float
-
 	// Set the door rotation
-	Owner->SetActorRotation(NewRotation);
+	Owner->SetActorRotation(FRotator(0.0f, OpenAngle, 0.0f)); 
 }
 
+void UOpenDoor::CloseDoor()
+{
+	// Set the door rotation
+	Owner->SetActorRotation(FRotator(0.0f, -90.0f, 0.0f)); // 0.0f
+}
 
 // Called every frame
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
@@ -46,6 +45,13 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	{
 		// If the ActorThatOpens is in the volume
 		OpenDoor();
+		LastDoorOpenTime = GetWorld()->GetTimeSeconds();
+	}
+
+	// Check if it's time to close the door
+	if (GetWorld()->GetTimeSeconds() - LastDoorOpenTime > DoorCloseDelay)
+	{
+		CloseDoor();
 	}
 }
 

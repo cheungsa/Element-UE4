@@ -23,22 +23,28 @@ protected:
 
 	void OpenDoor();
 
+	void CloseDoor();
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	// property is visible in property windows but cannot be edited at all
-	UPROPERTY(VisibleAnywhere)
+	// property is visible in property windows but cannot be edited at all (VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 	// set door angle at the start
-	float OpenAngle = 90.0f;
+	float OpenAngle = -170.0f; // -90.0f
 	
 	// property is editable
 	UPROPERTY(EditAnywhere)
 	// invisible volume in the game worlld that can be used to tell code to do something
 	ATriggerVolume* PressurePlate;
 
-	//UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere)
+	float DoorCloseDelay = 0.7f; // delay of one second
+
+	float LastDoorOpenTime;
 
 	AActor* ActorThatOpens; // remember pawn inherits from actor (can also use APawn*)
+	AActor* Owner; // the owning door
 };
