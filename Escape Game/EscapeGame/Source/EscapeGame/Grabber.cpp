@@ -1,7 +1,11 @@
 // Copyright Sarah Cheung 2018.
 
 #include "Grabber.h"
+#include "EscapeGame.h"
+#include "GameFramework/Actor.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
 
+#define OUT
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -29,6 +33,24 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	// Get player view point in this tick
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT PlayerViewPointLocation, 
+		OUT PlayerViewPointRotation
+	);
+
+	// Log 'out' (the viewpoint every tick) to test
+	UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"), 
+		*PlayerViewPointLocation.ToString(), 
+		*PlayerViewPointRotation.ToString()
+	)
+
+	// Ray-case out to reach distance
+
+
+	// See what we hit
+
 }
 
