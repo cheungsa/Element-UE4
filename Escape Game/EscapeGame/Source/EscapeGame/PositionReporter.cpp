@@ -27,6 +27,7 @@ void UPositionReporter::BeginPlay()
 	
 	// macro - log it's going to - warning - text that holds a string
 	// prints name of object with %s
+	// can remove this output text later
 	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectPos);
 	
 }
