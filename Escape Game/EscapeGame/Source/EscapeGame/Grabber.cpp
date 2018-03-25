@@ -22,9 +22,24 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 	FindPhysicsHandleComponent();
+	SetupInputComponent();
+}
 
-	// Look for attached Input Component (only appears at run time) to Owner (or Player),
-	// meaning it will find a component of a specified type from a sibling of some game object
+// Look for attached Physics Handle
+void UGrabber::FindPhysicsHandleComponent()
+{
+	// Gets owner and looks down its components for one of uphysicshandlecomponent type
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	if (!PhysicsHandle) // Physics handle is not found
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *(GetOwner()->GetName())); // pointer to dereference fstring
+	}
+}
+
+// Look for attached Input Component (only appears at run time)
+void UGrabber::SetupInputComponent()
+{
+	// Find a component of a specified type from a sibling of some game object
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
 	if (InputComponent)
 	{
@@ -43,61 +58,56 @@ void UGrabber::BeginPlay()
 	}
 }
 
-void UGrabber::FindPhysicsHandleComponent()
-{
-	// Look for attached Physics Handle (gets owner and looks down its components for one of uphysicshandlecomponent)
-	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (!PhysicsHandle) // Physics handle is not found
-	{
-		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *(GetOwner()->GetName())); // pointer to dereference fstring
-	}
-}
-
 void UGrabber::Grab() 
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab pressed"));
+
+	// LINE TRACE and see if we reach any actors with physics body collision channel set
+	GetFirstPhysicsBodyInReach();
+
+	// If we hit something, then attach a physics handle
+
 }
 
 void UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab released"));
+
+	// Release physics handle
+
 }
+
+
 
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	// If the physics handle is attached, move the object that we're holding each frame
+
+}
+
+// Return hit for first physics body in reach
+const FHitResult UGrabber::GetFirstPhysicsBodyInReach()
+{
 	/// Get player view point in this tick
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-		OUT PlayerViewPointLocation, 
+		OUT PlayerViewPointLocation,
 		OUT PlayerViewPointRotation
 	);
 
 	// 50 cm long line going up straight from above player's head
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 
-	/// Draw a red trace in the world to visualize
-	DrawDebugLine(
-		GetWorld(),
-		PlayerViewPointLocation,
-		LineTraceEnd,
-		FColor(255, 0, 0), // red line to display player's viewpoint
-		false,	// drawn line disappears and is redrawn every frame
-		0.f,	// don't care about lifetime (since line isn't persisting)
-		0.f,	// priority with which this is drawn in terms of depth filtering
-			    // aka does it appear in front of or behind other objects
-		10.f	// draw line with 10 cm thickness
-	);
-
 	/// Set up query parameters
 	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner()); // simple player collision
-										// set 'true' if you want visibility collision (ex: chair's arms)
-										// ignore the player (ourself)--otherwise, first hit is us
+																			   // set 'true' if you want visibility collision (ex: chair's arms)
+																			   // ignore the player (ourself)--otherwise, first hit is us
 
-	/// Line-trace (AKA ray-cast) out to reach distance
+																			   /// Line-trace (AKA ray-cast) out to reach distance
 	FHitResult Hit;
 	GetWorld()->LineTraceSingleByObjectType(
 		OUT Hit,
@@ -113,5 +123,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Line trace hit: %s"), *(ActorHit->GetName())); // pointer to dereference fstring
 	}
-}
 
+	return FHitResult();
+}
