@@ -6,7 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
 
-#include "OpenDoor.generated.h" // generated header has to be last one in file
+#include "OpenDoor.generated.h"
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ESCAPEGAME_API UOpenDoor : public UActorComponent

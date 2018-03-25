@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "Runtime/Engine/Classes/Engine/World.h"
 #include "Grabber.h"
+#include "Components/PrimitiveComponent.h"
 
 #define OUT
 
@@ -42,7 +43,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 	// Poll the Trigger Volume in every frame
 	// If specified mass is in the volume
-	if (GetTotalMassOfActorsOnPlate() > 50.f)
+	if (GetTotalMassOfActorsOnPlate() > 30.f)
 	{
 		// If the ActorThatOpens is in the volume
 		OpenDoor();
@@ -58,14 +59,18 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 float UOpenDoor::GetTotalMassOfActorsOnPlate()
 {
-	float TotalMass = 0.f;
+	float TotalMass = 0.f; // total mass of objects on pressure plate
 
 	// Find all the overlapping actors
 	TArray<AActor*> OverlappingActors;
 	PressurePlate->GetOverlappingActors(OUT OverlappingActors);
 
 	// Iterate through them, adding their masses
-
+	for (const auto& Actor : OverlappingActors)
+	{
+		TotalMass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+		UE_LOG(LogTemp, Warning, TEXT("%s on pressure plate"), *Actor->GetName());
+	}
 
 	return TotalMass;
 }
