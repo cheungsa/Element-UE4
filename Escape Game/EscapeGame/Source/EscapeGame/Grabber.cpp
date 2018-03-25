@@ -26,14 +26,42 @@ void UGrabber::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty!"));
 
-	/// Look for attached Physics Handle (gets owner and looks down its components for one of uphysicshandlecomponent
+	// Look for attached Physics Handle (gets owner and looks down its components for one of uphysicshandlecomponent
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 	if (!PhysicsHandle) // Physics handle is not found
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *(GetOwner()->GetName())); // pointer to dereference fstring
 	}
+
+	// Look for attached Input Component (only appears at run time) to Owner (or Player),
+	// meaning it will find a component of a specified type from a sibling of some game object
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+	if (InputComponent)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Input component found"));
+
+		// Bind the input axis
+		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+			// Binds an action (pressing a key) called "Grab" to a method called 'Grab'
+			// on the current class , which is Grabber ('this')
+
+		InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Release);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s missing input component"), *(GetOwner()->GetName()));
+	}
 }
 
+void UGrabber::Grab() 
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab pressed"));
+}
+
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab released"));
+}
 
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
