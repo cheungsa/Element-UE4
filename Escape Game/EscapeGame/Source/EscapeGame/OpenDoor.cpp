@@ -43,7 +43,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 	// Poll the Trigger Volume in every frame
 	// If specified mass is in the volume
-	if (GetTotalMassOfActorsOnPlate() == 5.f)
+	if (GetTotalMassOfActorsOnPlate() == 10.1f)
 	{
 		// If the ActorThatOpens is in the volume
 		OpenDoor();
