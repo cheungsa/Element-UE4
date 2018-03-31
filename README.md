@@ -1,4 +1,4 @@
-# Projects using Unreal Engine 4  
+# Current (and future) projects using Unreal Engine 4  
   
 1. Escape Game  
 2. Battle Tank  
