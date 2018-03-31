@@ -1,0 +1,12 @@
+FileVersion:2
+Type:Static
+Guid:BA4730EE-445C-0725-ADE6-83B3DD994783
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Unicorn/ParticleAssets/M_FireLights1.M_FireLights1
+/Game/Unicorn/ParticleAssets/M_FlameDisperse1.M_FlameDisperse1
+/Game/Unicorn/ParticleAssets/M_HeatDistortion1.M_HeatDistortion1
+/Game/Unicorn/ParticleAssets/M_SmokePuff1.M_SmokePuff1
+/Game/Unicorn/ParticleAssets/P_FireTrail.P_FireTrail
+/Game/Unicorn/Scenes/Demo_Night.Demo_Night
+/Game/Unicorn/Spells/BP_FireSideSlash.BP_FireSideSlash
