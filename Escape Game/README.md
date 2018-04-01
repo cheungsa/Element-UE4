@@ -16,9 +16,25 @@ Requirements
 •	Sketches for layout of room(s)  
 •	Sketches for how puzzles work  
 
+# Escape room
 ![alt text](Screenshots/EscapeRoom.PNG "Escape room")
+
+# Maze
+Escape for a clue
 ![alt text](Screenshots/Maze.PNG "Maze - escape for a clue")
+
+# Piano puzzle
+Play the right song
 ![alt text](Screenshots/Piano.PNG "Piano puzzle - play the right song")
+
+# Stereo
+Click the right channel to play a hidden song
 ![alt text](Screenshots/Stereo.PNG "Stereo - click the right channel to play a hidden song")
+
+# Tile puzzle
+Light up all the tiles
 ![alt text](Screenshots/TilePuzzle.PNG "Tile puzzle - light up all the tiles")
+
+# Color puzzle
+Pick up the correct trophies to unlock the door
 ![alt text](Screenshots/ColorPuzzle.PNG "Color puzzle - pick up the correct trophies to unlock the door")
