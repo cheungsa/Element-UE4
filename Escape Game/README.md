@@ -15,3 +15,9 @@ Requirements
 •	Various sound effects to enhance atmosphere  
 •	Sketches for layout of room(s)  
 •	Sketches for how puzzles work  
+
+![alt text](Screenshots/EscapeRoom.png "Escape room")
+![alt text](screenshots/Maze.png "Maze game - escape for a clue")
+![alt text](screenshots/Piano.png "Piano puzzle - play the right song")
+![alt text](screenshots/Stereo.png "Stereo - click the right channel to play a hidden song")
+![alt text](screenshots/ColorPuzzle.png "Color puzzle - pick up the correct trophies to unlock the door")
