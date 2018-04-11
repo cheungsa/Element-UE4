@@ -1,4 +1,4 @@
-# Current (and future) projects using Unreal Engine 4  
+# Current (and future) projects in Unreal Engine 4  
   
 1. Escape Game
 2. Element (VR first-person fighting game) - team project for a class
