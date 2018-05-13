@@ -1,8 +1,7 @@
-# Current (and future) projects in Unreal Engine 4  
+# Element 
+
+This is a first-person fantasy martial arts VR game prototype, inspired by the game Unspoken and the cartoon Avatar: The Last Airbender.
   
-1. Escape Game - **DONE**
-2. Element (VR first-person fighting game) - **In Progress**
-3. Battle Tank 
-4. First-person shooter  
-5. First-person stealth game (multiplayer) - **In Progress**
-6. Third-person shooter game (multiplayer)  
+To view a demo of this game in its mid-semester stages of development, click this link: https://www.youtube.com/watch?time_continue=5&v=51oBN-1tQgk
+
+To view a demo of this game in its end-of-the-semester stages of development, click this link: https://www.youtube.com/watch?v=RdWJ9Ngts-8
